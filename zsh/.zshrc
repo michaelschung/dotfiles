@@ -1,9 +1,12 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export ZSH_CUSTOM="/Users/michaelchung/dotfiles/zsh"
+
+# OpenAI API key, added 12/5/2024
+# Redacted 12/10/2024 - see api_key.sh in michaelschung.github.io
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,

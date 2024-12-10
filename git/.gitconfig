@@ -26,5 +26,17 @@
 	lp = log --pretty=lf --graph --cc --patch
 	# lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
 
+	# assorted
+	s = status
+	a = add
+	c = commit -am
+
 [core]
 	excludesfile = /Users/michaelchung/dotfiles/git/.gitignore_global
+
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+
+[mergetool]
+	prompt = false

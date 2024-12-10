@@ -83,3 +83,8 @@ inoremap <Down>  <ESC>:echoe "Use j"<CR>
 " https://github.com/ctrlpvim/ctrlp.vim/tree/master "
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" tab size, taken from https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces "
+set tabstop=4
+set softtabstop=0 noexpandtab
+set shiftwidth=4
