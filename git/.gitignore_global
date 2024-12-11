@@ -2,6 +2,7 @@
 
 # Node stuff
 node_modules/
+.env
 
 # VSCode config
 .vscode/

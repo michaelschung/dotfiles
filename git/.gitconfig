@@ -32,7 +32,7 @@
 	c = commit -am
 
 [core]
-	excludesfile = /Users/michaelchung/dotfiles/git/.gitignore_global
+	excludesfile = ~/dotfiles/git/.gitignore_global
 
 [merge]
 	tool = vimdiff
