@@ -8,7 +8,7 @@ alias recurse="cd /Users/michaelchung/Documents/code/recurse-center"
 alias mv="mv -i"	# -i prompts before overwrite
 alias mkdir="mkdir -p"	# -p make parent dirs as needed
 alias df="df -h"       	# -h prints human readable format
-alias cat="bat --paging=never"  # cat with syntax highlighting
+alias cat="bat --paging=never"  # cat w/ syntax highlighting
 
 # python
 alias vcreate="python3 -m venv .venv"
