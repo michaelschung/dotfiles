@@ -3,6 +3,7 @@
 # Node stuff
 node_modules/
 .env
+dist
 
 # VSCode config
 .vscode/
