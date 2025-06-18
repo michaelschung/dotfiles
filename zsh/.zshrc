@@ -1,9 +1,11 @@
+export ZSH_DISABLE_COMPFIX=true
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
+
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export ZSH_CUSTOM="/Users/michaelchung/dotfiles/zsh"
+export ZSH_CUSTOM="~/dotfiles/zsh"
 
 # OpenAI API key, added 12/5/2024
 # Redacted 12/10/2024 - see api_key.sh in michaelschung.github.io
@@ -128,3 +130,6 @@ if ! zplug check --verbose; then
         echo; zplug install
     fi
 fi
+
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh

@@ -1,8 +1,14 @@
 # getting here
 alias create_alias="vim $ZSH_CUSTOM/aliases.zsh"
 
-# specific paths
-alias recurse="cd /Users/michaelchung/Documents/code/recurse-center"
+# ===== pinpoint =====
+alias ppt="cd $HOME/pinpoint"
+alias backend="cd $HOME/pinpoint/pinpoint-monorepo"
+alias frontend="cd $HOME/pinpoint/pinpoint-frontend"
+alias frontend-launch="frontend && npm run dev"
+#alias backend-launch="backend && backendLaunch"
+alias backend-launch="backend && sh ../scripts/backend_launch.sh"
+alias backend-shutdown="backend && sh ../scripts/backend_shutdown.sh"
 
 # better defaults
 alias mv="mv -i"	# -i prompts before overwrite

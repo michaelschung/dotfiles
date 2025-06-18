@@ -2,7 +2,7 @@
 [user]
 # Please adapt and uncomment the following lines:
 	name = Michael Chung
-	email = michaelchung@michaels-air.mynetworksettings.com
+	email = michaelsukwon@gmail.com
 
 [pretty]
 	# Taken from https://github.com/alfunx/.dotfiles/blob/master/.gitconfig
@@ -40,3 +40,7 @@
 
 [mergetool]
 	prompt = false
+[push]
+	autoSetupRemote = true
+[pull]
+	rebase = true
