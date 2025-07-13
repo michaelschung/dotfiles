@@ -1,11 +1,11 @@
 export ZSH_DISABLE_COMPFIX=true
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export ZSH_CUSTOM="~/dotfiles/zsh"
+# export ZSH_CUSTOM="~/dotfiles/zsh"
 
 # OpenAI API key, added 12/5/2024
 # Redacted 12/10/2024 - see api_key.sh in michaelschung.github.io
@@ -72,6 +72,7 @@ ZSH_THEME="robbyrussell"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM="$HOME/dotfiles/zsh"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
