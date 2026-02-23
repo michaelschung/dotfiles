@@ -1,10 +1,13 @@
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
+# Homebrew
+if [[ -f /opt/homebrew/bin/brew ]]; then
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
 
-# Created by `pipx` on 2024-11-19 17:01:02
-export PATH="$PATH:/Users/michaelchung/.local/bin"
+# Local binaries (pipx, etc.)
+export PATH="$HOME/.local/bin:$PATH"
 
-# Setting PATH for Python 3.13
-# The original version is saved in .zprofile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:${PATH}"
-export PATH
+# Python 3.13 (installed via python.org)
+if [[ -d /Library/Frameworks/Python.framework/Versions/3.13/bin ]]; then
+    export PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:$PATH"
+fi
